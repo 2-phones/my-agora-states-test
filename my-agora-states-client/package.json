@@ -16,7 +16,6 @@
     "build": "react-scripts test --watchAll=false && react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5"
   }
 }
